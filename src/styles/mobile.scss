@@ -1,0 +1,52 @@
+@media (max-width: 800px) {
+  main {
+    .rough-annotation {
+      display: none;
+    }
+
+    nav {
+      .start {
+        display: none;
+      }
+
+      .start-mob {
+        display: flex;
+      }
+    }
+
+    .start-mob-elements {
+      display: flex;
+    }
+
+    .about {
+      &-main {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &-picture {
+        min-width: 60vw;
+        max-width: 28vw;
+      }
+    }
+
+    .projects {
+      &-list {
+        &-item {
+          max-width: 80vw;
+        }
+      }
+    }
+
+    .contact {
+      &-info {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &-email {
+        font-size: 6vw;
+      }
+    }
+  }
+}

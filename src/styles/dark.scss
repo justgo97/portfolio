@@ -1,0 +1,25 @@
+.dark-mode {
+  color: rgba(255, 255, 255, 0.87);
+
+  nav {
+    background-color: $darkBlue;
+  }
+
+  .start-mob-elements {
+    background-color: $darkBlue;
+  }
+
+  .sections {
+    background-color: #242424;
+  }
+
+  .about {
+    &-quote {
+      color: rgba(175, 175, 175, 0.804);
+    }
+  }
+
+  footer {
+    background-color: $darkBlue;
+  }
+}

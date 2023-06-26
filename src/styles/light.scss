@@ -1,0 +1,25 @@
+.light-mode {
+  color: rgba(0, 0, 0, 0.87);
+
+  nav {
+    background-color: $colorWhite;
+  }
+
+  .start-mob-elements {
+    background-color: $colorWhite;
+  }
+
+  .sections {
+    background-color: $veryLightGray;
+  }
+
+  .about {
+    &-quote {
+      color: rgb(112, 112, 112);
+    }
+  }
+
+  footer {
+    background-color: $colorWhite;
+  }
+}
