@@ -99,6 +99,10 @@ main {
       color: rgb(8, 190, 190);
       cursor: pointer;
       text-decoration: none;
+
+      &:hover {
+        filter: drop-shadow(0 0 0.5rem #a0a5ffe9);
+      }
     }
   }
 
